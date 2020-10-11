@@ -62,3 +62,28 @@
 .search-input input:focus {
   outline-width: 0;
 }
+.search-icon {
+  color: rgb(163, 162, 162);
+}
+.search-button {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.search-button button {
+  margin: 5px;
+  padding: 7px 15px;
+  border: 1px solid white;
+  background-color: rgb(242, 242, 242);
+  text-transform: inherit;
+  color: rgb(112, 112, 112);
+  font-weight: 550;
+  font-size: 10pt;
+}
+
+.search-button button:hover {
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1); */
+}
