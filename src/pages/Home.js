@@ -21,9 +21,9 @@ const Home = () => {
         </div>
       </div>
       <div className="home-body">
-        <img src={logo} />
+        <img src={logo} alt="" />
         <div className="home-input">
-          <Search />
+          <Search hideButtons />
         </div>
       </div>
     </div>
